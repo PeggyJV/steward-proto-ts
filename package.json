@@ -1,0 +1,14 @@
+{
+  "name": "steward-proto-js",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ts-proto": "^1.167.8"
+  }
+}
