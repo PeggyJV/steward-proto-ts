@@ -13,3 +13,5 @@ protoc --plugin=protoc-gen-ts_proto=$REPO_ROOT/node_modules/.bin/protoc-gen-ts_p
     --proto_path=$PROTO_PATH \
     --ts_proto_out=$REPO_ROOT/src/ \
     $PROTO_PATH/*.proto
+
+echo "Done!"

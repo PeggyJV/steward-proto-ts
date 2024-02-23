@@ -1,5 +1,5 @@
 {
-  "name": "steward-proto-js",
+  "name": "steward-proto-ts",
   "module": "index.ts",
   "type": "module",
   "author": "Collin Brittain",
