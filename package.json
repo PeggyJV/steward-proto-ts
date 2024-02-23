@@ -2,6 +2,9 @@
   "name": "steward-proto-js",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "build-protos": "scripts/build-protos.sh"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },

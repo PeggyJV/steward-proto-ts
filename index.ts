@@ -1,1 +1,1 @@
-console.log("Hello via Bun!");
+exports = require("./src/steward");
