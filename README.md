@@ -1,4 +1,4 @@
-# steward-proto-js
+# steward-proto-ts
 
 To install dependencies:
 
@@ -6,10 +6,14 @@ To install dependencies:
 bun install
 ```
 
-To run:
+To compile:
 
 ```bash
-bun run index.ts
+bun run compile
+
+# or
+
+tsc
 ```
 
 This project was created using `bun init` in bun v1.0.28. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.

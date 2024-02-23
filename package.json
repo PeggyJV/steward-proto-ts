@@ -2,8 +2,10 @@
   "name": "steward-proto-js",
   "module": "index.ts",
   "type": "module",
+  "author": "Collin Brittain",
   "scripts": {
-    "build-protos": "scripts/build-protos.sh"
+    "build-protos": "scripts/build-protos.sh",
+    "compile": "tsc"
   },
   "devDependencies": {
     "@types/bun": "latest"

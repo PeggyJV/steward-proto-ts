@@ -1,5 +1,5 @@
 /* eslint-disable */
-import * as _m0 from "protobufjs/minimal";
+import _m0 from "protobufjs/minimal";
 import { AaveATokenAdaptorV1Calls, AaveATokenAdaptorV2Calls } from "./a_token";
 import { AaveV2EnableAssetAsCollateralAdaptorV1Calls } from "./aave_v2_enable_asset_as_collateral_adaptor";
 import { AaveV3ATokenAdaptorV1Calls } from "./aave_v3_a_token";

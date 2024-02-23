@@ -1,5 +1,6 @@
 /* eslint-disable */
-import * as _m0 from "protobufjs/minimal";
+import Long from "long";
+import _m0 from "protobufjs/minimal";
 import { AaveATokenAdaptorV1Calls, AaveATokenAdaptorV2Calls } from "./a_token";
 import { AaveV2EnableAssetAsCollateralAdaptorV1Calls } from "./aave_v2_enable_asset_as_collateral_adaptor";
 import { AaveV3ATokenAdaptorV1Calls } from "./aave_v3_a_token";
@@ -33,7 +34,6 @@ import { SwapWithUniswapAdaptorV1Calls } from "./swap_with_uniswap";
 import { UniswapV3AdaptorV2Calls } from "./uniswap_v3";
 import { VestingSimpleAdaptorV2Calls } from "./vesting_simple";
 import { ZeroXAdaptorV1Calls } from "./zero_x";
-import Long = require("long");
 
 export const protobufPackage = "steward.v4";
 

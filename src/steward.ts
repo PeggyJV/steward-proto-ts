@@ -1,9 +1,9 @@
 /* eslint-disable */
-import * as _m0 from "protobufjs/minimal";
+import Long from "long";
+import _m0 from "protobufjs/minimal";
 import { AaveV2Stablecoin } from "./aave_v2_stablecoin";
 import { CellarV1 } from "./cellar_v1";
 import { CellarV2, CellarV22, CellarV25 } from "./cellar_v2";
-import Long = require("long");
 
 export const protobufPackage = "steward.v4";
 

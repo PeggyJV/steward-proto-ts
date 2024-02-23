@@ -1,5 +1,5 @@
 /* eslint-disable */
-import * as _m0 from "protobufjs/minimal";
+import _m0 from "protobufjs/minimal";
 import { OracleSwap, RevokeApproval, Swap } from "./base";
 import { Exchange, exchangeFromJSON, exchangeToJSON, SwapParams } from "./common";
 

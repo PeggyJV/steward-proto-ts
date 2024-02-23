@@ -1,5 +1,5 @@
 /* eslint-disable */
-import * as _m0 from "protobufjs/minimal";
+import _m0 from "protobufjs/minimal";
 import { AaveV2StablecoinGovernance } from "./aave_v2_stablecoin";
 import { CellarV1Governance } from "./cellar_v1";
 import { CellarV22Governance, CellarV25Governance, CellarV2Governance } from "./cellar_v2";

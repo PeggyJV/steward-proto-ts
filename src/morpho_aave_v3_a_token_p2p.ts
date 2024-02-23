@@ -1,5 +1,5 @@
 /* eslint-disable */
-import * as _m0 from "protobufjs/minimal";
+import _m0 from "protobufjs/minimal";
 import { RevokeApproval } from "./base";
 import { Claim } from "./morpho_reward_handler";
 
