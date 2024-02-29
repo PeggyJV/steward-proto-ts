@@ -8,10 +8,11 @@ PROTO_PATH=$REPO_ROOT/proto/steward/v4
 
 echo "Generating TypeScript code from proto files..."
 
-protoc --plugin=protoc-gen-ts_proto=$REPO_ROOT/node_modules/.bin/protoc-gen-ts_proto \
-    --ts_proto_opt=esModuleInterop=true,outputClientImpl=true \
+protoc \
+    --plugin=protoc-gen-ts=$REPO_ROOT/node_modules/.bin/protoc-gen-ts \
+    --ts_opt=esModuleInterop=true \
     --proto_path=$PROTO_PATH \
-    --ts_proto_out=$REPO_ROOT/src/ \
+    --ts_out=$REPO_ROOT/src/ \
     $PROTO_PATH/*.proto
 
 echo "Done!"
